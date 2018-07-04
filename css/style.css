@@ -242,6 +242,7 @@ footer {
 		max-width: 300px;
 		min-height: 100px;
 		padding-top: 0px;
+		margin-left: 0px;
 	}
 	/*.header-img {
 		display: none;*/
@@ -270,8 +271,12 @@ footer {
 	.portfolio-col-1 {
 		padding: 0px 20px 0px 20px;
 }
-	.portfolio-text-1 {
+	.portfolio-text-1, .portfolio-text-2 {
 		margin-top: 0px;
+		font-size: 14px;
+	}
+	.portfolio-text-2 {
+		margin-right: 30px;
 	}
 	.portfolio-col-2 {
 		padding: 0px 20px 0px 20px;
