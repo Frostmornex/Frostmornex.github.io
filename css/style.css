@@ -1,30 +1,36 @@
 /* Здесь будут храниться стили нашего сайта */
 body {
 	margin: 0;
-	font-family: 'Roboto';
+	font-family: 'Josefin Sans';
 	font-size: 18px;
 }
 img {
 	max-width: 100%;
 }
 h1 {
-	color: #fff;
+	color: #000000;
 }
 
 header {
-	padding-top: 59px;
-	padding-bottom: 22px;
-	background-color: #1E90FF;
-	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	background-color: #87CEFA;
+	color: #000000;
 }
-.header-pretitle {
-margin-top: 70px;
+.header-pretitle-1 {
+font-size: 18px;
+text-align: left;
+
+}
+.header-pretitle-2 {
+
 }
 .header-title {
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 46.81px;
-	margin-top: 21px;
+	margin-top: 0px;
+	color: #F8F8FF;
 }
 .header-subtitle {
 	margin-top: 20px;
@@ -32,26 +38,27 @@ margin-top: 70px;
 .header-button {
 	display: inline-block;
 	text-decoration: none;
-box-shadow: 10px 17px 34px 6px rgba(0, 50, 130, 0.83);
+box-shadow: 10px 10px 15px 6px rgba(0, 50, 130, 0.83);
 border-radius: 50px;
 background-color: #ffffff;
 color: #072b6f;
 font-size: 18px;
 font-weight: 700;
 padding: 17px 55px;
-margin-top: 33px;
 -webkit-transition: 0.2s;
 -o-transition: 0.2s;
 transition: 0.2s;
 }
 .header-button:hover {
 	box-shadow:none;
+	color: #000000;
 }
 header small {
 	font-size: 12px;
 	display: block;
 	text-align: center;
 	margin-top: 20px;
+	margin-left: -1px;
 }
 .header-button-block {
 	max-width: 210px;
@@ -61,14 +68,15 @@ header small {
 	height: 380px;
 	margin-top: 20px;
 }
-/* Секция портфолио*/
+/* Секция центр*/
 .portfolio {
-	background-color: #dddddd;
+	background-color: #F5F5F5;
 	padding-top: 44px;
 	padding-bottom: 71px;
+	border: 10px;
 }
 .portfolio-block {
-	background-color: #fff;
+	background-color: #F5F5F5;
 	padding-top: 29px;
 	padding-bottom: 44px;
 }
@@ -77,12 +85,27 @@ header small {
 	font-size: 18px;
 	color: #072b6f;
 	margin-bottom: 10px;
+
 }
 .portfolio-subtitle {
 	margin-top: 10px;
 	margin-bottom: 30px;
 	font-size: 14px;
 	color: #7bb9ff;
+}
+.portfolio-img {
+	display: inline-block;
+	text-decoration: none;
+box-shadow: 5px 5px 5px 5px rgba(0, 50, 130, 0.83);
+border-radius: 50px;
+background-color: #87CEFA;
+color: #87CEFA;
+-webkit-transition: 0.2s;
+-o-transition: 0.2s;
+transition: 0.2s;
+}
+.portfolio-img:hover {
+	box-shadow:none;
 }
 .portfolio-title, .portfolio-subtitle {
 	text-align: center;
@@ -92,17 +115,34 @@ header small {
 }
 .portfolio-col-2 {
 	padding-right: 50px;
+
 }
 .portfolio-block h3 {
 color: #072b6f;
 font-size: 18px;
 font-weight: 700;
 text-transform: uppercase;
+	text-align: center;
 }
-.portfolio-text {
-color: #8f8f8f;
+.portfolio-title-1 {
+color: #000000;
+font-size: 24px;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 0px;
+}
+.portfolio-text-1 {
+color: #000000;
+font-size: 24px;
+font-weight: 400;
+text-align: center;
+margin-top: 0px;
+}
+.portfolio-text-2 {
+color: #000000;
 font-size: 14px;
 font-weight: 400;
+margin-left: 20px;
 }
 .portfolio-block a {
 color: #8f8f8f;
@@ -112,17 +152,47 @@ font-weight: 400;
 
 /* Оформление подвала */
 footer {
-	background-color: #3a7dfd;
-	color: #fff;
-	padding-top: 60px;
+	background-color: #87CEFA;
+	color: #000000;
+	padding-top: 30px;
 	padding-bottom: 110px;
 }
-.footer-author {
-	font-size: 24px;
-	margin-bottom: 7px;
+.viber {
+	color: #8B008B;
 }
-.footer-text {
-	margin-top: 0px;
+.whatsup {
+	color: #008000;
+}
+.telegram {
+	color: #00008B;
+}
+.footer-partners-block {
+	text-align: center;
+}
+.footer-partners {
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+	margin-bottom: 0px;
+}
+.footer-name-logo-1 {
+	text-decoration: none;
+	color: #000000;
+	font-size: 18px;
+	text-align: left;
+}
+.footer-name-logo-2 {
+	text-align: left;
+	text-decoration: none;
+	color: #000000;
+	font-size: 18px;
+}
+.footer-img-1, .footer-img-2 {
+	 width: 35%; height: 35%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  object-position: center;
+	margin-top: 10px;
 }
 .social-block {
 	text-align: center;
@@ -133,7 +203,9 @@ footer {
 	margin-right: 13px;
 }
 .footer-cta {
-	margin-bottom: 13px;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 0px;
 }
 .footer-cta-block {
 	text-align: center;
@@ -142,7 +214,7 @@ footer {
 	display: inline-block;
 	border: 1px solid #ffffff;
 	background-color: transparent;
-	color: #fff;
+	color: #000000;
 	font-size: 18px;
 	border-radius: 50px;
 	padding: 15px 40px;
@@ -153,10 +225,10 @@ footer {
 }
 .footer-button:hover {
 	background-color: #fff;
-	color: #3a7dfd;
+	color: #000000;
 }
 @media (max-width: 1200px) {
-	.header-pretitle {
+	.header-pretitle-1 {
 		margin-top: 60px;
 	}
 }
@@ -164,7 +236,7 @@ footer {
 	.header-img {
 		display: none;
 	}
-	.header-pretitle {
+	.header-pretitle-1 {
 		margin-top: 10px;
 	}
 	.footer-author {
