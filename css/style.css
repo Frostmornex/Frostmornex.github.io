@@ -233,16 +233,15 @@ footer {
 	}
 }
 @media (max-width: 992px) {
-	.col-xl-5, .header-pretitle-1 {
-		text-align: center;
-		  align-items: center;
-    justify-content: center;
+	.col-xl-5, .header-pretitle-1, {
+		font-size: 14px;
 	}
 	.header-img {
 		height: auto;
 		width: auto;
 		max-width: 350px;
 		min-height: 130px;
+		margin-top: 0px;
 	}
 	/*.header-img {
 		display: none;*/
@@ -256,19 +255,24 @@ footer {
 		text-align: center;
 	}
 	.header-title {
-		font-size: 30px;
+		font-size: 24px;
+		margin-top: 0px;
 	}
 	.header-pretitle-1 {
-		margin-top: 10px;
+		margin-top: 0px;
+	}
+	.portfolio-title {
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 	.portfolio-col-1 {
-		padding-left: 20px;
-		padding-right: 20px;
-		margin-bottom: 40px;
+		padding: 0px 20px 0px 20px;
 }
+	.portfolio-text-1 {
+		margin-top: 0px;
+	}
 	.portfolio-col-2 {
-		padding-left: 20px;
-		padding-right: 20px;
+		padding: 0px 20px 0px 20px;
 	}
 	.footer-author {
 		font-size: 18px;
