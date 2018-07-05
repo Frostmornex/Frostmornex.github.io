@@ -8,7 +8,10 @@ img {
 	max-width: 100%;
 }
 h1 {
-	color: #000000;
+	font-family: 'Play';
+	color: #ffffff;
+	padding-bottom: 10px;
+		text-shadow: #000000 2px 2px 1px;
 }
 
 header {
@@ -20,20 +23,22 @@ header {
 .header-pretitle-1 {
 font-size: 18px;
 text-align: left;
-
+padding-top: 10px;
 }
 .header-pretitle-2 {
-
+	padding-top: 10px;
 }
 .header-title {
 	font-size: 48px;
 	font-weight: 700;
 	line-height: 46.81px;
 	margin-top: 0px;
-	color: #F8F8FF;
+	padding-top: 10px;
+	
 }
 .header-subtitle {
 	margin-top: 20px;
+	padding-bottom: 30px;
 }
 .header-button {
 	display: inline-block;
