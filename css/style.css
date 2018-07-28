@@ -29,14 +29,16 @@ header {
 header a {
   text-decoration: none;
 }
+.main-logo-header {
+  text-align: left;
+  margin-left: 10%;
+}
 .main-image {
-  text-align: center;
-  position: relative;
-  padding-left: 150px;
   padding-top: 50px;
 }
 .language {
   text-align: right;
+  padding-right: 30px;
   padding-top: 17px;
 }
 .language_ru {
@@ -208,7 +210,8 @@ button:focus {
   width:100%;
   background-color: #e54427;
 }
-
+.navmenu {
+}
 nav {
   margin: 0px auto 0;
   position: relative;
@@ -216,7 +219,7 @@ nav {
   height: 50px;
   background-color: #e54427;
   border-radius: 8px;
-  font-size: 0;
+  font-size: 0px;
 }
 
 nav a {
@@ -528,11 +531,9 @@ FOOTER RIGHT
   .col-xl-5,  {
     font-size: 12px;
   }
-  .header-img {
+  .main-image {
     height: auto;
     width: auto;
-    max-width: 300px;
-    min-height: 100px;
     padding-top: 0px;
     margin-left: 0px;
   }
